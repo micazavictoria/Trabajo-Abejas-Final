@@ -1,1 +1,1 @@
-Aca ira la informacion para el readme
+Este sera el readme para el trabajo final del ramo Visualización de datos 
