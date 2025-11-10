@@ -1,0 +1,27 @@
+---
+title: "Diversidad de polinizadores Apidae en Chile"
+author: "Victoria Miranda"
+date: today
+format:
+  html:
+    theme: flatly
+    toc: true
+    toc-location: left
+    number-sections: true
+    code-fold: true
+    page-layout: full
+    smooth-scroll: true
+    highlight-style: atom-one-dark
+---
+
+## Trabajo Final
+
+Estoy probando como se veria mi quarto de mi trabajo final
+
+## 🐝 Introducción
+
+Aca ira la intro ![](Bombus_dahlabomii.jpg){width="90%"}
+
+## Plots
+
+aun no tengo :c
