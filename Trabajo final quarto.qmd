@@ -1,5 +1,5 @@
 ---
-title: "Diversidad de polinizadores Apidae en Chile"
+title: "Diversidad de polinizadores de la familia Apidae en Chile"
 author: "Victoria Miranda"
 date: today
 format:
@@ -20,7 +20,9 @@ Estoy probando como se veria mi quarto de mi trabajo final
 
 ## 🐝 Introducción
 
-Aca ira la intro ![](Bombus_dahlabomii.jpg){width="90%"}
+Aca ira la intro
+
+![](img/bombus.jpg)
 
 ## Plots
 
