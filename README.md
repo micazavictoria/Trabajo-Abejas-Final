@@ -2,13 +2,17 @@ Este sera el readme para el trabajo final del ramo Visualización de datos
 
 Dejare el link de donde saque los datos: <https://github.com/fonturbel-lab/pollination_catalogue/tree/master>
 
-titulo: Distribución de polinizadores de la familia Apidae en Chile según el catálogo de polinización Hipotesis: La diversidad de especies de la familia Apidae es mayor en la zona central de Chile que en el norte y el sur del país. Objetivos: Visualizar la distribución geográfica y la riqueza de especies de la familia Apidae en Chile utilizando datos del Pollination Catalogue
+titulo:
 
-1.  filtrar para familia apidae
-2.  contar la cantidad de registros por region
-3.  ver distribucion geografica y comparar riqueza de especies
-4.  comparar riqueza
+Hipótesis: Dentro del ensamblaje de plantas–polinizadores de las regiones de Los Ríos y Los Lagos, los insectos del orden Hymenoptera (especialmente abejas nativas y Apis mellifera) dominan estructuralmente la red, presentando mayor número de interacciones y centralidad que Diptera, Coleoptera y Lepidoptera.
 
-pensar si agregar el factor de la vegetacion
+Objetivo General Evaluar la estructura de la red de plantas–polinizadores del ensamblaje de las regiones de Los Ríos y Los Lagos, con énfasis en el rol estructural de los principales órdenes de insectos polinizadores.
 
-plots: mapa de calor, grafico de barra de riqueza por region, hacer un mapa de las regiones con colores
+Objetivo Específico 
+1. Construir una red bipartita que represente las interacciones planta–polinizador del ensamblaje de ambas regiones.
+
+2.  Comparar la importancia estructural de Hymenoptera, Diptera, Coleoptera y Lepidoptera mediante métricas de centralidad, grado e interacciones totales.
+
+3.  Determinar si Hymenoptera domina la red, evaluando su contribución relativa a la conectancia y redundancia funcional.
+
+4.  Visualizar las interacciones mediante gráficos (red bipartita, barras por orden, heatmap de interacciones).
