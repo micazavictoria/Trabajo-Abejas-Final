@@ -46,7 +46,7 @@ ggplot(riqueza, aes(x = order_animals, y = n_especies, fill = order_animals)) +
 
 # Heatmap -----------------------------------------------------------------
 
-ggplot(abundancia_regiones, aes(x = order_animals, y = state_province, fill = n_interacciones)) +
+HEATMAP <- ggplot(abundancia_regiones, aes(x = order_animals, y = state_province, fill = n_interacciones)) +
   geom_tile(color = "white", size = 0.5) +
   scale_fill_gradient(low = "#D5C5D9", high = "purple") +
   labs(

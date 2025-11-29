@@ -9,14 +9,15 @@ datos_filtrados <- filter(datos,
 #Estandarizamos los nombres de las regiones para el analisis y luego filtramos
 datos_filtrados <- datos_filtrados %>%
   mutate(state_province = case_when(
-    state_province %in% c("Araucania", "La Araucania") ~ "La Araucania",
-    state_province == "Aysen" ~ "Aysén",
-    state_province == "Bio Bio" ~ "Biobío",
-    state_province == "Metropolitana de Santiago" ~ "Región Metropolitana",
-    state_province %in% c("O'Higgins", "Libertador General Bernardo O'Higgins", 
-                          "Libertador General Bernardo Libertador General Bernardo O'Higgins") ~ "Libertador General Bernardo O'Higgins",
+    state_province %in% c("Araucania", "La Araucania") ~ "La Araucanía",
+    state_province == "Aysen" ~ "Aisén del General Carlos Ibáñez del Campo",
+    state_province == "Bio Bio" ~ "Bío-Bío",
+    state_province == "Metropolitana de Santiago" ~ "Región Metropolitana de Santiago",
+    state_province %in% c("O'Higgins", "Libertador General Bernardo O'Higgins") ~ "Libertador General Bernardo O'Higgins",
     state_province == "Tarapaca" ~ "Tarapacá",
     state_province == "Valparaiso" ~ "Valparaíso",
+    state_province == "Los Rios" ~ "Los Ríos",
+    state_province == "Magallanes" ~ "Magallanes y Antártica Chilena",
     TRUE ~ state_province
   ))
 
